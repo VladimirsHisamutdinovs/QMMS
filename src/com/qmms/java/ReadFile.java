@@ -30,7 +30,8 @@ public class ReadFile {
 
 				
 				splitLine = inputLine.split(" ");
-				System.out.println("This:" + Arrays.toString(splitLine));
+//				Test Output
+//				System.out.println(Arrays.toString(splitLine));
 			}
 			
 			bufferedReader.close();

@@ -19,24 +19,24 @@ public class WriteFileTest {
 
 	public String testOutputFile = "testOutputFile.txt";
 	public String path = "/QMMS/";
-	public String fullPath = path + testOutputFile;
-	
-	
-	
-	@Test
-    public void writesContentToFile() throws IOException {
-       
-        // act
-        WriteFile.writeFile(path, testOutputFile);
 
-        // TODO: proper content/extension test
-        // assert
-//        assertThat("test", testOutputFile)
-//                .hasContent("test")
-//                .hasExtension("txt")
-//                ;
+	
+	
+	
+//	@Test
+//    public void writesContentToFile() throws IOException {
+//       
+//        // act
+//        WriteFile.writeFile(path, testOutputFile);
+//
+//        // TODO: proper content/extension test
+//        // assert
+////        assertThat("test", testOutputFile)
+////                .hasContent("test")
+////                .hasExtension("text")
+////                ;
+////   
+//
+// 
 //   
-
- 
-   
 }
