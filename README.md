@@ -16,6 +16,10 @@ Also, I've left Arrays class native method "sort" that also does the trick (curr
 
 Several tests are attached. File writer test is not currently implemented (not working correctly), however will do its job, once adjusted.
 
+The flow:
+The program reads the text file specified in the inputFile variable (currently qmms.txt), sorts it with merge sort and produces a new text file "sortedQMMS.txt". File gets created if it is not there and gets re-written every time the program runs.
+
+And of course this description could not be felt completed if I won't say: "It was working perfectly on my machine". Enjoy!
 
 
 
